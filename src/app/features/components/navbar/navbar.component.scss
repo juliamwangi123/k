@@ -1,0 +1,37 @@
+nav{
+    // background-color: black;
+    display: flex;
+    align-items: center;
+    gap: 250px;
+    background-color: transparent;
+    z-index: 20;
+    margin-top: 18px;
+
+}
+ul{
+    display: flex;
+    gap: 65px;
+    li{
+        list-style-type: none;
+        color: white;
+        text-transform: capitalize;
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 700;
+        outline: none;
+    }
+}
+
+.logo{
+    margin-left: 200px;
+    // margin-right: 200px;
+
+    img{
+        width: auto;
+        object-fit: contain;
+    }
+}
+.fa-house-chimney{
+    color: white;
+    font-size: 16px;
+}
